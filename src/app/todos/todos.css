@@ -1,0 +1,18 @@
+.todos {
+  display: flex;
+  flex-direction: column;
+}
+.todo {
+  margin: 0.5rem;
+  display: flex;
+}
+.id {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+.content {
+  width: 15rem;
+}
+.done .content {
+  text-decoration: line-through;
+}
